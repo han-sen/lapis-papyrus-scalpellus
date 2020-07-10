@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lapis, Papyrus, Scalpellus</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <main>
+            <h1>Lapis, Papyrus, Scalpellus</h1>
+            <p>Choose wisely to outsmart the computer in this ancient game.</p>
+            <section class="game">
+              <button id="lapis"><i class="fas fa-hand-rock"></i> Lapis</button>
+              <button id="papyrus"><i class="fas fa-hand-paper"></i> Papyrus</button>
+              <button id="scalpellus"><i class="fas fa-hand-scissors"></i> Scalpellus</button>
+            </section>
+            <section class="results">
+              <div class="choiceWrap">
+                <div>
+                  <p class="choiceLabel">
+                    Computer Choice:
+                  </p>
+                  <p id="computerChoice" class="choiceText">
+                    _______
+                  </p>
+                </div>
+                <div class="vs">
+                  <i class="fas fa-times"></i>
+                </div>
+                <div>
+                  <p class="choiceLabel">
+                    Player Choice:
+                  </p>
+                  <p id="playerChoice" class="choiceText">
+                    _______
+                  </p>
+                </div>
+              </div>
+              <p id="resultBox">
+                Waiting for player choice..
+              </p>
+            </section>
+          </main>     
+        <script src="index.js" async defer></script>
+    </body>
+</html>
